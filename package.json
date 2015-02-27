@@ -1,0 +1,34 @@
+{
+    "name": "radio-nova",
+    "main": "./index.html",
+    "version": "0.0.1",
+    "window": {
+        "title": "Radio Nova",
+        "icon": "icon/icon.png",
+        "toolbar": false,
+        "frame": true,
+        "width": 720,
+        "height": 430,
+        "resizable": false,
+        "position": "mouse"
+    },
+
+    "webkit": {
+        "plugin": true
+    },
+
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/florentsolt/radio-nova.git"
+    },
+
+    "dependencies": {
+    },
+
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-contrib-clean": "*",
+        "grunt-contrib-copy": "*",
+        "grunt-node-webkit-builder": "*"
+    }
+}
